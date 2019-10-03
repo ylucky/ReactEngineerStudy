@@ -29,7 +29,7 @@ import {Provider} from 'react-redux';
 
 
 ### 笔记：  
- [官方网址](https://reactjs.org/)
+ [reactjs官方网址](https://reactjs.org/)
  * react初探
  * 项目搭建：
  * 官方脚手架-create-react-app
