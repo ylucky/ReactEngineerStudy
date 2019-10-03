@@ -50,11 +50,11 @@ import {Provider} from 'react-redux';
  const store = createStore(reducer);
 
 ###react-redux
- >>Provider store reducer
- >>connect(_mapStateToProps,_mapDispatchToProps)(ToDoList5)
- >>箭头函数 onClick={()=>this.props.deleteItem(index)}
- >>connect 容器组件  
- >>ToDoList5UI组件
+ *Provider store reducer
+ *connect(_mapStateToProps,_mapDispatchToProps)(ToDoList5)
+ *箭头函数 onClick={()=>this.props.deleteItem(index)}
+ *connect 容器组件  
+ *ToDoList5UI组件
 
 
 ###markdown语法
