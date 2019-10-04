@@ -10,17 +10,21 @@ import './index.css';
 //redux-thunk中间件
 //import ToDoList4 from './ToDoList4';
 //react-redux
-import store from './todolist5Store';
-import ToDoList5 from './ToDoList5';
-import {Provider} from 'react-redux';
-
+//import store from './todolist5Store';
+//import ToDoList5 from './ToDoList5';
+//import {Provider} from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+
+/*重写react-redux 拆分ToDoList5*/
+import store from './toDoList6store';
+import {Provider} from 'react-redux';
+import ToDoList6 from './ToDoList6'
 
 //react-redux
 //Provider 连接了store 有能力获取到store的值
 const App = (
 	<Provider store={store}>
-		<ToDoList5/>
+		<ToDoList6/>
 	</Provider>
 )
 
